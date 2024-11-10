@@ -67,5 +67,10 @@ button:hover {
     display: block;
     flex-direction: column;
   }
+    #productList{
+      display: block;
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
   
 }
