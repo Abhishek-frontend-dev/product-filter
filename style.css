@@ -73,7 +73,7 @@ button:hover {
   .filters{
     display: block;
     flex-direction: column;
-    background-color: rgb(255, 235, 210);
+    background-color: rgb(255, 254, 252);
     padding: 16px 40px 10px ;
   }
     #productList{
