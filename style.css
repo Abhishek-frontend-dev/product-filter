@@ -21,7 +21,7 @@ h1 {
 }
 
 .filters label {
-  margin-right: 10px;
+  margin-right: 1rem;
 }
 
 .filters input,
@@ -37,7 +37,7 @@ h1 {
 
 .product {
   background-color: #fff;
-  padding: 20px;
+  padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 200px;
@@ -73,11 +73,23 @@ button:hover {
   .filters{
     display: block;
     flex-direction: column;
+    background-color: rgb(255, 235, 210);
+    padding: 16px 40px 10px ;
   }
     #productList{
       display: block;
     }
   .product{
     width: 100%;
+    margin-top: 20px;
   }
+    .filters input,
+    .filters select{
+      display: block;
+      margin: 10px;
+
+    }
+        button{
+          margin-right: 2px;
+        }
 }
