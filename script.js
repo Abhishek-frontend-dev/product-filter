@@ -1,10 +1,10 @@
 let products = [
-  { name: "Shirt", price: 25, category: "Clothing", available: true, Imagepath :"lichi.jfif" },
-  { name: "Shoes", price: 50, category: "Clothing", available: false, Imagepath :"fruite bannar.jfif" },
-  { name: "Smartphone", price: 700, category: "Electronics", available: true, Imagepath :"orang.jfif" },
-  { name: "Laptop", price: 1000, category: "Electronics", available: true, Imagepath :"apple.jfif" },
-  { name: "Fridge", price: 500, category: "Home Appliances", available: false, Imagepath :"fruite bannar.jfif" },
-  { name: "Washing Machine", price: 300, category: "Home Appliances", available: true , Imagepath :"lichi.jfif" }
+  { name: "Shirt", price: 25, category: "Clothing", available: true, Imagepath :"6c666bda-3b10-4448-bccf-c218879742911718016802144-Allen-Solly-Men-Shirts-6571718016801622-1.jpg" },
+  { name: "Shoes", price: 50, category: "Clothing", available: false, Imagepath :"Shoes.avif" },
+  { name: "Smartphone", price: 700, category: "Electronics", available: true, Imagepath :"google-pixel-9-pro-66d5e04002b15.jpg" },
+  { name: "Laptop", price: 1000, category: "Electronics", available: true, Imagepath :"laptop.jpg" },
+  { name: "Fridge", price: 500, category: "Home Appliances", available: false, Imagepath :"Fridge.jpg" },
+  { name: "Washing Machine", price: 300, category: "Home Appliances", available: true , Imagepath :"Washing Machine.jpeg" }
 ];
 
 // Display products on the page
