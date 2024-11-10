@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Filter App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Product Filter App</h1>
+
+    <!-- Filters -->
+    <div class="filters">
+      <label for="minPrice">Min Price:</label>
+      <input type="number" id="minPrice" placeholder="Min Price" />
+
+      <label for="maxPrice">Max Price:</label>
+      <input type="number" id="maxPrice" placeholder="Max Price" />
+
+      <label for="category">Category:</label>
+      <select id="category">
+        <option value="">Select Category</option>
+        <option value="Clothing">Clothing</option>
+        <option value="Electronics">Electronics</option>
+        <option value="Home Appliances">Home Appliances</option>
+      </select>
+
+      <label for="availability">Availability:</label>
+      <select id="availability">
+        <option value="">Select Availability</option>
+        <option value="true">Available</option>
+        <option value="false">Out of Stock</option>
+      </select>
+
+      <button id="filterBtn">Filter Products</button>
+      <button id="clearBtn">Clear Filters</button>
+    </div>
+
+    <!-- Product List -->
+    <div id="productList">
+      <!-- Product items will appear here -->
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
