@@ -21,7 +21,7 @@ h1 {
 }
 
 .filters label {
-  margin-right: 1rem;
+  margin-right: 20px;
 }
 
 .filters input,
@@ -37,10 +37,10 @@ h1 {
 
 .product {
   background-color: #fff;
-  padding: 2rem;
+  padding: 20px;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 200px;
+  width: 300px;
   justify-content: center;
 }
 
